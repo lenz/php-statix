@@ -1,5 +1,16 @@
 <? $title = "The Pool" ?>
 
 <h1><?= $title ?></h1>
-<img src="/images/pool.png" style="border: solid 1px silver" />
+<img src="/images/pool.png" style="border: solid 3px silver" />
 <p>This is it. Refreshing, isn´t it?</p>
+
+<h2>How about some tests?</h2>
+<p>Let´s try these denormalized and wrong links to the other pools!</p>
+<ol>
+    <li>
+        Denormalized Links get normalized: <a href="/oTHer/PoOls">/oTHer/PoOls</a>
+    </li>
+    <li>
+        Non existing URLs are always handled by php: <a href="/not-there/">/not-there/</a>
+    </li>
+</ol>
