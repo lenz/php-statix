@@ -8,4 +8,4 @@ Installation, setup and usage
 2. Configure [sitename]/public to be the document root for the domain of your site
 3. In your browser go to the the domain of your site and try the example pages
 
-A more verbose version of this document will follow :D
+A more verbose version of this document will follow!
