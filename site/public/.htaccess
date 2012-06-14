@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+# rewrite all request wich are no existing files
+# to the php front controller
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+) - [PT,L]
+
+RewriteRule ^(.*) statix.php
